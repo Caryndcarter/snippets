@@ -100,6 +100,9 @@ footer {
 /* create our main grid with flexbox, use negative margins to offset the padding on the .card-column class */
 .row {
   /* TODO: */
+  display: flex;
+  flex-flow: row wrap;
+  margin: -2rem;
 }
 
 .justify-center {
